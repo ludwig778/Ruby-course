@@ -3,6 +3,16 @@ $navbar-default-bg: black;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar .nav > li > a,
+.navbar .nav > li > a:link {
+    color: red;
+}
+
+.navbar .nav > li > a:hover,
+.navbar .nav > li > a:active {
+    color: orange;
+}
+
 #logo {
     float: left;
     font-size: 1.7em;
